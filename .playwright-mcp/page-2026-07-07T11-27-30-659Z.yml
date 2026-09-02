@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "AuditReady AI" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - text: AuditReady AI
+        - navigation [ref=e11]:
+          - link "Product" [ref=e12] [cursor=pointer]:
+            - /url: "#product"
+          - link "Features" [ref=e13] [cursor=pointer]:
+            - /url: "#features"
+          - link "Standards" [ref=e14] [cursor=pointer]:
+            - /url: "#standards"
+          - link "FAQ" [ref=e15] [cursor=pointer]:
+            - /url: "#faq"
+        - generic [ref=e16]:
+          - link "Login" [ref=e17] [cursor=pointer]:
+            - /url: /login
+          - link "Open Assistant" [ref=e18] [cursor=pointer]:
+            - /url: /login
+    - generic [ref=e20]:
+      - generic [ref=e21]: Pre-audit compliance assistant
+      - heading "Ask the assistant. Upload the evidence. Fix what will likely get flagged." [level=1] [ref=e22]: Ask the assistant. Upload the evidence. Fix what will likely get flagged.
+      - paragraph [ref=e24]: "Built around a real operator workflow: photos, scanned records, follow-up questions, and a structured report grounded in WRAP, ETI, amfori BSCI, and OEKO-TEX material."
+      - generic [ref=e25]:
+        - textbox "Does this blocked exit likely trigger a Major finding?" [ref=e26]
+        - link "Ask AuditReady AI" [ref=e27] [cursor=pointer]:
+          - /url: /login
+      - paragraph [ref=e28]: Upload a photo or record and get a clause-grounded pre-audit read.
+      - generic [ref=e29]:
+        - img "Textile worker sewing at an industrial machine" [ref=e31]
+        - img "Garment factory floor with workers at sewing stations" [ref=e33]
+        - img "Row of embroidery machines in a textile factory" [ref=e35]
+    - generic [ref=e37]:
+      - generic [ref=e38]: WRAP
+      - generic [ref=e39]: ETI Base Code
+      - generic [ref=e40]: amfori BSCI
+      - generic [ref=e41]: OEKO-TEX
+      - generic [ref=e42]: Punjab Labour Law
+      - generic [ref=e43]: Sindh Labour Law
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - text: Minor
+          - text: risk
+        - generic [ref=e53]:
+          - 'heading "Session report: Factory Floor Review" [level=3] [ref=e54]'
+          - paragraph [ref=e55]: 4 findings · 1 Major, 2 Minor, 1 Compliant
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Major
+          - text: Health & Safety
+        - generic [ref=e59]:
+          - generic [ref=e60]: Minor
+          - text: Wages & Hours
+        - generic [ref=e61]:
+          - generic [ref=e62]: OK
+          - text: Documentation
+        - generic [ref=e63]:
+          - generic [ref=e64]: Minor
+          - text: Worker Welfare
+        - generic [ref=e65]:
+          - generic [ref=e66]: More info
+          - text: Environmental
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: Chat-first, not a form
+        - heading "The assistant is the product." [level=2] [ref=e71]
+        - paragraph [ref=e72]: Upload evidence, ask follow-up questions, and keep the whole review in one session, instead of clicking through a static checklist.
+        - paragraph [ref=e73]: Every gap-analysis answer is meant to point back to a real standard clause, not a vague compliance summary.
+        - link "See the workspace" [ref=e74] [cursor=pointer]:
+          - /url: /login
+      - generic [ref=e75]:
+        - img "Factory workers in safety helmets inspecting equipment" [ref=e77]
+        - generic [ref=e78]:
+          - strong [ref=e79]: Blocked emergency exit
+          - generic [ref=e80]: Major
+        - generic [ref=e81]:
+          - strong [ref=e82]: Missing overtime records
+          - generic [ref=e83]: Minor
+        - generic [ref=e84]:
+          - strong [ref=e85]: Fire extinguisher tags current
+          - generic [ref=e86]: Compliant
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - strong [ref=e91]: Rewrite → Retrieve → Evaluate → Retry
+          - generic [ref=e92]: Live trace
+        - paragraph [ref=e93]: “Matching WRAP Principle 8, ETI health and safety, and BSCI performance areas.”
+      - generic [ref=e94]:
+        - generic [ref=e95]: Nothing hidden
+        - heading "Watch the graph work, not just the answer." [level=2] [ref=e96]
+        - paragraph [ref=e97]: Managers can see rewrite, retrieval, relevance checks, and retries as they happen, so a grounded answer never feels like a black box.
+        - link "See a live trace" [ref=e98] [cursor=pointer]:
+          - /url: /login
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e102]: Reports that travel
+        - heading "Clause-grounded reports, sent where you work." [level=2] [ref=e103]
+        - paragraph [ref=e104]: Export a structured PDF, or send the finding straight to a factory manager over WhatsApp or email, right from the same session.
+        - link "See report options" [ref=e105] [cursor=pointer]:
+          - /url: /login
+      - generic [ref=e106]:
+        - generic [ref=e107]: "Report ready: 1 Major finding on Line 3. PDF attached."
+        - generic [ref=e108]: Sent to compliance@factory.pk — “AuditReady AI pre-audit report”
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - heading "Less filler. More operator utility." [level=2] [ref=e112]
+        - paragraph [ref=e113]: One workspace covering the whole pre-audit workflow, from evidence to grounded report.
+      - generic [ref=e114]:
+        - article [ref=e115]:
+          - heading "Chat-first workspace" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Conversation stays at the center of every review.
+        - article [ref=e119]:
+          - heading "Clause-grounded answers" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Responses trace back to a real standard clause.
+        - article [ref=e123]:
+          - heading "Live graph trace" [level=3] [ref=e125]
+          - paragraph [ref=e126]: See rewrite, retrieval, and retries as they happen.
+        - article [ref=e127]:
+          - heading "Evidence uploads" [level=3] [ref=e129]
+          - paragraph [ref=e130]: Factory photos, scanned records, and certificates.
+        - article [ref=e131]:
+          - heading "Structured reports" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Major, Minor, Compliant, or Needs More Evidence.
+        - article [ref=e135]:
+          - heading "WhatsApp delivery" [level=3] [ref=e137]
+          - paragraph [ref=e138]: Send a finding straight to a factory manager.
+        - article [ref=e139]:
+          - heading "Email delivery" [level=3] [ref=e141]
+          - paragraph [ref=e142]: Send the same report to a compliance inbox.
+        - article [ref=e143]:
+          - heading "Admin console" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Knowledge base freshness and an audit-log trail.
+    - generic [ref=e148]:
+      - img "Textile worker at a sewing machine in a garment factory" [ref=e150]
+      - generic [ref=e151]:
+        - heading "Built for Pakistani textile and leather exporters." [level=2] [ref=e152]
+        - list [ref=e153]:
+          - listitem [ref=e154]:
+            - text: ✔
+            - generic [ref=e155]: Fewer surprises before a buyer audit — catch visible and document-level issues early.
+          - listitem [ref=e156]:
+            - text: ✔
+            - generic [ref=e157]: Plain-language fixes — every finding comes with a concrete next step, not just a verdict.
+          - listitem [ref=e158]:
+            - text: ✔
+            - generic [ref=e159]: Local-first core — Ollama, ChromaDB, and local embeddings keep the assistant useful without a mandatory paid API key.
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - text: Starter questions
+        - heading "What operators can ask on day one" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - generic [ref=e165]: “Does this blocked exit likely trigger a major finding under WRAP or ETI?”
+        - generic [ref=e166]: “What records should I upload if I want a pre-check on wages and overtime?”
+        - generic [ref=e167]: “Compare this factory-floor photo against BSCI and Punjab safety rules.”
+    - generic [ref=e169]:
+      - heading "Two things to keep clear" [level=2] [ref=e171]
+      - generic [ref=e172]:
+        - group [ref=e173]:
+          - generic "Is this a real audit replacement?" [ref=e174] [cursor=pointer]
+        - group [ref=e175]:
+          - generic "Can users ask follow-up questions after an upload?" [ref=e176] [cursor=pointer]
+    - generic [ref=e178]:
+      - heading "Ready to see what your evidence says?" [level=2] [ref=e179]
+      - paragraph [ref=e180]: Open the chat workspace and ask your first compliance question.
+      - link "Open the chat workspace" [ref=e181] [cursor=pointer]:
+        - /url: /login
+    - contentinfo [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - img [ref=e186]
+            - text: AuditReady AI
+          - paragraph [ref=e191]: Built for Pakistani textile and leather exporters who want fewer surprises before buyer audits.
+        - generic [ref=e192]:
+          - heading "Explore" [level=4] [ref=e193]
+          - link "Features" [ref=e194] [cursor=pointer]:
+            - /url: "#features"
+          - link "Product" [ref=e195] [cursor=pointer]:
+            - /url: "#product"
+          - link "FAQ" [ref=e196] [cursor=pointer]:
+            - /url: "#faq"
+        - generic [ref=e197]:
+          - heading "Standards" [level=4] [ref=e198]
+          - generic [ref=e199]: WRAP · ETI Base Code
+          - generic [ref=e200]: amfori BSCI · OEKO-TEX
+          - generic [ref=e201]: Punjab & Sindh Labour Law
+        - generic [ref=e202]:
+          - heading "Contact" [level=4] [ref=e203]
+          - link "team@auditready.local" [ref=e204] [cursor=pointer]:
+            - /url: mailto:team@auditready.local
+          - generic [ref=e205]: Karachi · Lahore · Faisalabad · Sialkot
+  - button "Open Next.js Dev Tools" [ref=e211] [cursor=pointer]:
+    - img [ref=e212]
+  - alert [ref=e215]

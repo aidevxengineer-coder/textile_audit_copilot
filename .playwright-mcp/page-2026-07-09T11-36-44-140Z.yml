@@ -1,0 +1,48 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - img [ref=f1e6]
+        - generic [ref=f1e11]:
+          - strong [ref=f1e12]: AuditReady AI
+          - generic [ref=f1e13]: Pre-audit assistant workspace
+      - paragraph [ref=f1e14]: Secure access
+      - heading "Sign in to the compliance assistant." [level=1] [ref=f1e15]
+      - paragraph [ref=f1e16]: Upload factory-floor evidence, ask follow-up questions, and review grounded findings without digging through a cluttered dashboard.
+      - generic [ref=f1e17]:
+        - generic [ref=f1e18]:
+          - strong [ref=f1e19]: Chat-first workflow
+          - text: The assistant, evidence, live graph trace, and report stay in one workspace.
+        - generic [ref=f1e20]:
+          - strong [ref=f1e21]: Role-aware access
+          - text: Factory users see their own reviews. Admins get audit logs and knowledge-base controls.
+      - link "Back to product overview" [ref=f1e22] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f1e24]:
+      - generic [ref=f1e25]:
+        - button "Sign In" [ref=f1e26] [cursor=pointer]
+        - button "Create Account" [ref=f1e27] [cursor=pointer]
+      - generic [ref=f1e28]:
+        - generic [ref=f1e48]:
+          - text: Full name
+          - textbox "Full name" [ref=f1e49]:
+            - /placeholder: Ayesha Khan
+        - generic [ref=f1e29]:
+          - text: Work email
+          - textbox "Work email" [ref=f1e30]:
+            - /placeholder: compliance@factory.pk
+        - generic [ref=f1e31]:
+          - text: Password
+          - textbox "Password" [ref=f1e32]:
+            - /placeholder: Minimum 8 characters
+        - button "Register and Continue" [ref=f1e50] [cursor=pointer]
+      - paragraph [ref=f1e34]: "Create Account registers a `factory_user` workspace. You can use any valid work email format here."
+      - paragraph [ref=f1e35]: Admin accounts must complete TOTP enrollment before entering the dashboard.
+      - paragraph [ref=f1e36]:
+        - text: "Local dev admin:"
+        - strong [ref=f1e37]: admin@auditready.com
+        - text: /
+        - strong [ref=f1e38]: audit123
+  - button "Open Next.js Dev Tools" [ref=f1e44] [cursor=pointer]:
+    - img [ref=f1e45]
+  - alert [ref=f1e51]

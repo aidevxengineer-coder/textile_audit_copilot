@@ -1,0 +1,2 @@
+﻿category,verdict,standard,clause,confidence,priority,audit_risk,evidence,evidence_gap,recommended_evidence,recommended_fix
+wages,Needs More Evidence,User Project Evidence,Page 1,Medium,Medium,Potential external-audit concern requiring verification,Wages evidence from Factory-Disclosure-Report-Bangladesh-January-2026.pdf: [Page 1] The International Accord has provided the information on this signatory supplier list for Bangladesh as of 31 January 2026,Missing evidence regarding wages,Wages documentation; Payroll records,Provide more evidence regarding wages

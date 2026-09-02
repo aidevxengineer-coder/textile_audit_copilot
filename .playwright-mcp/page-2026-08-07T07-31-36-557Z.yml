@@ -1,0 +1,39 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e2]:
+    - region [ref=f2e3]:
+      - img "Leather workshop team preparing evidence" [ref=f2e5]
+      - generic [ref=f2e7]:
+        - generic [ref=f2e14]:
+          - strong [ref=f2e15]: AuditReady AI
+          - generic [ref=f2e16]: Compliance workspace
+        - generic [ref=f2e17]:
+          - paragraph [ref=f2e18]: Secure workspace
+          - heading "Welcome back" [level=1] [ref=f2e19]
+          - paragraph [ref=f2e20]: Use your existing account or create a protected workspace.
+        - generic [ref=f2e21]:
+          - tablist "Choose an account action" [ref=f2e22]:
+            - tab "Sign In" [selected] [ref=f2e23] [cursor=pointer]
+            - tab "Create Account" [ref=f2e24] [cursor=pointer]
+          - generic [ref=f2e25]:
+            - strong [ref=f2e26]: Sign in to your account
+            - generic [ref=f2e27]: Administrators sign in here too. MFA starts automatically when required.
+          - generic [ref=f2e28]:
+            - generic [ref=f2e29]:
+              - text: Work email
+              - textbox "Work email" [ref=f2e30]:
+                - /placeholder: compliance@factory.pk
+            - generic [ref=f2e31]:
+              - text: Password
+              - generic [ref=f2e32]:
+                - textbox "Password Show password" [ref=f2e33]:
+                  - /placeholder: Your password
+                - button "Show password" [ref=f2e34] [cursor=pointer]
+            - button "Sign in securely" [ref=f2e38] [cursor=pointer]
+          - paragraph [ref=f2e39]: Protected by secure session cookies and role-based access.
+          - paragraph [ref=f2e40]:
+            - text: New to AuditReady AI?
+            - button "Create an account" [ref=f2e41] [cursor=pointer]
+        - link "Back to the AuditReady AI overview" [ref=f2e42] [cursor=pointer]:
+          - /url: /
+          - text: ← Back to overview
+  - alert [ref=f2e43]

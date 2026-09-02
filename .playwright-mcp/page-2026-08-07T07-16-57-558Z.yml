@@ -1,0 +1,43 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - region [ref=e3]:
+      - img "Leather workshop team preparing evidence" [ref=e5]
+      - generic [ref=e7]:
+        - generic [ref=e14]:
+          - strong [ref=e15]: AuditReady AI
+          - generic [ref=e16]: Compliance workspace
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Secure workspace
+          - heading "Welcome back" [level=1] [ref=e19]
+          - paragraph [ref=e20]: Use your existing account or create a protected workspace.
+        - generic [ref=e21]:
+          - tablist "Choose an account action" [ref=e22]:
+            - tab "Sign In" [ref=e23] [cursor=pointer]
+            - tab "Create Account" [active] [selected] [ref=e24] [cursor=pointer]
+          - generic [ref=e25]:
+            - strong [ref=e26]: Create your private workspace
+            - generic [ref=e27]: New accounts are created as factory-user workspaces with private projects and reviews.
+          - generic [ref=e28]:
+            - generic [ref=e44]:
+              - text: Full name
+              - textbox "Full name" [ref=e45]:
+                - /placeholder: Ayesha Khan
+            - generic [ref=e29]:
+              - text: Work email
+              - textbox "Work email" [ref=e30]:
+                - /placeholder: compliance@factory.pk
+            - generic [ref=e31]:
+              - text: Password
+              - generic [ref=e32]:
+                - textbox "Password Show password" [ref=e33]:
+                  - /placeholder: Minimum 12 characters
+                - button "Show password" [ref=e34] [cursor=pointer]
+            - button "Create account" [ref=e46] [cursor=pointer]
+          - paragraph [ref=e39]: Protected by secure session cookies and role-based access.
+          - paragraph [ref=e40]:
+            - text: Already have an account?
+            - button "Sign in instead" [ref=e47] [cursor=pointer]
+        - link "Back to the AuditReady AI overview" [ref=e42] [cursor=pointer]:
+          - /url: /
+          - text: ← Back to overview
+  - alert [ref=e43]

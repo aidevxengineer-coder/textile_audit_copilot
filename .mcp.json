@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "filesystem": {"command": ".venv/Scripts/python.exe", "args": ["backend/app/mcp/local_server.py", "filesystem"]},
+    "documents": {"command": ".venv/Scripts/python.exe", "args": ["backend/app/mcp/local_server.py", "documents"]},
+    "web-search": {"command": ".venv/Scripts/python.exe", "args": ["backend/app/mcp/local_server.py", "web_search"]},
+    "email": {"command": ".venv/Scripts/python.exe", "args": ["backend/app/mcp/local_server.py", "email"]},
+    "utilities": {"command": ".venv/Scripts/python.exe", "args": ["backend/app/mcp/local_server.py", "utilities"]},
+    "playwright": {"command": "npx", "args": ["-y", "@playwright/mcp@latest"]}
+  }
+}

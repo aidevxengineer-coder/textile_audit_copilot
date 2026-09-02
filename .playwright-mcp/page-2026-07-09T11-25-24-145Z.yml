@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - strong [ref=e12]: AuditReady AI
+          - generic [ref=e13]: Pre-audit assistant workspace
+      - paragraph [ref=e14]: Secure access
+      - heading "Sign in to the compliance assistant." [level=1] [ref=e15]
+      - paragraph [ref=e16]: Upload factory-floor evidence, ask follow-up questions, and review grounded findings without digging through a cluttered dashboard.
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - strong [ref=e19]: Chat-first workflow
+          - text: The assistant, evidence, live graph trace, and report stay in one workspace.
+        - generic [ref=e20]:
+          - strong [ref=e21]: Role-aware access
+          - text: Factory users see their own reviews. Admins get audit logs and knowledge-base controls.
+      - link "Back to product overview" [ref=e22] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - button "Sign In" [ref=e26] [cursor=pointer]
+        - button "Create Account" [ref=e27] [cursor=pointer]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: Work email
+          - textbox "Work email" [ref=e30]:
+            - /placeholder: compliance@factory.pk
+        - generic [ref=e31]:
+          - text: Password
+          - textbox "Password" [ref=e32]:
+            - /placeholder: Minimum 8 characters
+        - button "Continue to Workspace" [ref=e33] [cursor=pointer]
+      - paragraph [ref=e34]: "Create Account registers a `factory_user` workspace. You can use any valid work email format here."
+      - paragraph [ref=e35]: Admin accounts must complete TOTP enrollment before entering the dashboard.
+      - paragraph [ref=e36]:
+        - text: "Local dev admin:"
+        - strong [ref=e37]: admin@auditready.com
+        - text: /
+        - strong [ref=e38]: audit123
+  - alert [ref=e39]

@@ -1,0 +1,328 @@
+.shell {
+  display: grid;
+  grid-template-columns: minmax(250px, .8fr) minmax(300px, 1fr) minmax(340px, 1.2fr);
+  gap: 1rem;
+  align-items: stretch;
+  padding: 1.1rem;
+  border: 1px solid rgba(104, 91, 214, .16);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 5% 15%, rgba(108, 92, 231, .12), transparent 34%),
+    radial-gradient(circle at 96% 92%, rgba(240, 151, 47, .13), transparent 38%),
+    rgba(255, 255, 255, .84);
+  box-shadow: 0 22px 55px rgba(45, 41, 83, .08);
+  backdrop-filter: blur(18px);
+}
+
+.intro,
+.downloadPanel,
+.deliveryPanel {
+  min-width: 0;
+  border-radius: 17px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.15rem 1.25rem;
+}
+
+.kicker {
+  color: #6559d9;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.intro h2 {
+  margin: .45rem 0 .55rem;
+  color: #17172a;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.1;
+  letter-spacing: -.035em;
+}
+
+.intro p,
+.panelHeading span,
+.formatButton span {
+  color: #71738a;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+
+.downloadPanel,
+.deliveryPanel {
+  padding: 1rem;
+  border: 1px solid rgba(97, 89, 184, .13);
+  background: rgba(255, 255, 255, .74);
+}
+
+.panelHeading {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: .85rem;
+}
+
+.panelHeading > div {
+  display: grid;
+  gap: .12rem;
+}
+
+.panelHeading strong {
+  color: #24243a;
+  font-size: .91rem;
+}
+
+.iconBox {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  place-items: center;
+  border-radius: 11px;
+  color: #6155d6;
+  background: #efedff;
+}
+
+.iconBox svg,
+.recipientField button svg {
+  width: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.orangeIcon {
+  color: #c97216;
+  background: #fff0dd;
+}
+
+.formatGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .45rem;
+}
+
+.formatButton {
+  display: grid;
+  gap: .18rem;
+  min-height: 66px;
+  padding: .72rem .65rem;
+  text-align: left;
+  border: 1px solid #e4e2f3;
+  border-radius: 12px;
+  color: #2d2c43;
+  background: #fbfaff;
+  cursor: pointer;
+  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.formatButton:hover:not(:disabled) {
+  border-color: #9b92e9;
+  box-shadow: 0 8px 20px rgba(81, 70, 177, .1);
+  transform: translateY(-2px);
+}
+
+.formatButton:disabled {
+  cursor: wait;
+  opacity: .68;
+}
+
+.formatButton strong {
+  font-size: .84rem;
+}
+
+.formatButton span {
+  font-size: .7rem;
+}
+
+.channelSwitch {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .25rem;
+  padding: .25rem;
+  margin-bottom: .75rem;
+  border-radius: 10px;
+  background: #f2f1f8;
+}
+
+.channelSwitch button {
+  padding: .42rem .8rem;
+  border: 0;
+  border-radius: 8px;
+  color: #686a7d;
+  background: transparent;
+  cursor: pointer;
+}
+
+.channelSwitch button[aria-pressed="true"] {
+  color: #312a77;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(49, 42, 119, .1);
+}
+
+.recipientField {
+  display: grid;
+  gap: .38rem;
+  color: #4c4d63;
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+.recipientField > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .45rem;
+}
+
+.recipientField input {
+  min-width: 0;
+  height: 42px;
+  padding: 0 .75rem;
+  border: 1px solid #dfddeb;
+  border-radius: 11px;
+  outline: none;
+  color: #25253a;
+  background: rgba(255, 255, 255, .88);
+}
+
+.recipientField input:focus {
+  border-color: #8175e1;
+  box-shadow: 0 0 0 3px rgba(108, 92, 231, .12);
+}
+
+.recipientField button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .38rem;
+  min-width: 110px;
+  padding: 0 .85rem;
+  border: 0;
+  border-radius: 11px;
+  color: #fff;
+  font-size: .76rem;
+  font-weight: 750;
+  background: linear-gradient(125deg, #6558d8, #8a51d0 56%, #eb8c37);
+  box-shadow: 0 8px 20px rgba(101, 88, 216, .2);
+  cursor: pointer;
+}
+
+.recipientField button:disabled {
+  cursor: wait;
+  opacity: .68;
+}
+
+.notice {
+  grid-column: 1 / -1;
+  min-height: 1.25rem;
+  margin: -.25rem .35rem 0;
+  color: #696b80;
+  font-size: .72rem;
+}
+
+.notice::before {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: .42rem;
+  border-radius: 50%;
+  background: #43ae86;
+  content: "";
+  vertical-align: .08rem;
+}
+
+.notice.error {
+  color: #ad454e;
+}
+
+.notice.error::before {
+  background: #d55b64;
+}
+
+@media (max-width: 1100px) {
+  .shell {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .intro {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 720px) {
+  .shell {
+    grid-template-columns: 1fr;
+    padding: .75rem;
+  }
+
+  .intro {
+    grid-column: auto;
+    padding: .85rem;
+  }
+
+  .formatGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .formatButton {
+    min-height: 54px;
+  }
+
+  .recipientField > div {
+    grid-template-columns: 1fr;
+  }
+
+  .recipientField button {
+    min-height: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .formatButton {
+    transition: none;
+  }
+}
+
+/* Compact report toolbar */
+.shell {
+  grid-template-columns: minmax(280px, .8fr) minmax(420px, 1.2fr);
+  gap: .65rem;
+  padding: .65rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(45, 41, 83, .06);
+}
+
+.downloadPanel,
+.deliveryPanel {
+  padding: .7rem;
+  border-radius: 12px;
+}
+
+.panelHeading { margin-bottom: .5rem; }
+.formatButton { min-height: 40px; padding: .5rem .6rem; text-align: center; border-radius: 9px; }
+.channelSwitch { margin-bottom: .45rem; }
+
+@media (max-width: 900px) {
+  .shell { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 901px) {
+  .shell { gap: .5rem; padding: .45rem; }
+  .downloadPanel { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .55rem; padding: .5rem; }
+  .deliveryPanel { display: grid; grid-template-columns: auto auto minmax(220px, 1fr); align-items: center; gap: .5rem; padding: .5rem; }
+  .panelHeading, .channelSwitch { margin: 0; }
+  .panelHeading .iconBox { width: 32px; height: 32px; flex-basis: 32px; }
+  .panelHeading > div { display: none; }
+  .formatButton { min-height: 36px; padding: .4rem; }
+  .recipientField { gap: 0; }
+  .recipientField > span { display: none; }
+  .recipientField input { height: 36px; }
+  .recipientField button { min-height: 36px; }
+  .notice { margin: 0 .35rem; }
+}

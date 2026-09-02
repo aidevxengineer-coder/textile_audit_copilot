@@ -1,0 +1,43 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e2]:
+    - region [ref=f1e3]:
+      - img "Leather workshop team preparing evidence" [ref=f1e5]
+      - generic [ref=f1e7]:
+        - generic [ref=f1e14]:
+          - strong [ref=f1e15]: AuditReady AI
+          - generic [ref=f1e16]: Compliance workspace
+        - generic [ref=f1e17]:
+          - paragraph [ref=f1e18]: Secure workspace
+          - heading "Welcome back" [level=1] [ref=f1e19]
+          - paragraph [ref=f1e20]: Use your existing account or create a protected workspace.
+        - generic [ref=f1e21]:
+          - tablist "Choose an account action" [ref=f1e22]:
+            - tab "Sign In" [ref=f1e23] [cursor=pointer]
+            - tab "Create Account" [active] [selected] [ref=f1e24] [cursor=pointer]
+          - generic [ref=f1e25]:
+            - strong [ref=f1e26]: Create your private workspace
+            - generic [ref=f1e27]: New accounts are created as factory-user workspaces with private projects and reviews.
+          - generic [ref=f1e28]:
+            - generic [ref=f1e44]:
+              - text: Full name
+              - textbox "Full name" [ref=f1e45]:
+                - /placeholder: Ayesha Khan
+            - generic [ref=f1e29]:
+              - text: Work email
+              - textbox "Work email" [ref=f1e30]:
+                - /placeholder: compliance@factory.pk
+            - generic [ref=f1e31]:
+              - text: Password
+              - generic [ref=f1e32]:
+                - textbox "Password Show password" [ref=f1e33]:
+                  - /placeholder: Minimum 12 characters
+                - button "Show password" [ref=f1e34] [cursor=pointer]
+            - button "Create account" [ref=f1e46] [cursor=pointer]
+          - paragraph [ref=f1e39]: Protected by secure session cookies and role-based access.
+          - paragraph [ref=f1e40]:
+            - text: Already have an account?
+            - button "Sign in instead" [ref=f1e47] [cursor=pointer]
+        - link "Back to the AuditReady AI overview" [ref=f1e42] [cursor=pointer]:
+          - /url: /
+          - text: ← Back to overview
+  - alert [ref=f1e43]
